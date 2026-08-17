@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="owlcarousel/owl.theme.default.min.css">
+</head>
+<body>
+   
+        <header>
+            <a href="#"><img src="image/logo.png" alt="" class="logo"></a>
+            <ul class="nav">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="./our_food.html">Our Food</a></li>
+                <li><a href="contact.html">Contact</a></li>
+								<li><a href="./onlineorder.html">Online Order</a></li>
+            </ul>
+        </header>
+	<section id="menu">
+
+        <div class="menu_title w3-animate-top">
+            <h2>Our Best Seller</h2>
+            <p>Select a menu or got to the section with a convinient filter by product</p>
+        </div>
+        <ul class="menu_body">
+            <li class="tablink"><a href="javascript:void(0)" onclick="openMenu(event, 'coffee')"id="myLink">Coffee</a></li>
+            <li class="tablink"><a href="javascript:void(0)" onclick="openMenu(event, 'drinks');">Drink</a></li>
+            <li class="tablink"><a href="javascript:void(0)" onclick="openMenu(event, 'cakes');">Cakes</a></li>
+            <li class="tablink"><a href="javascript:void(0)" onclick="openMenu(event, 'pasta');">Pasta</a></li>
+            <li class="tablink"><a href="javascript:void(0)" onclick="openMenu(event, 'pizza');">Pizza</a></li>
+        </ul>
+        <div class="imgBox">
+              <div id="coffee" class="menu">
+                <img src="image/menu_coffee.jpg" alt="" class="menu_image w3-animate-bottom">
+            </div>
+            <div id="drinks" class="menu">
+                <img src="image/menu_drink.jpg" alt="" class="menu_image w3-animate-bottom">
+            </div>  
+            <div id="cakes" class="menu">
+                <img src="image/menu_cakes.jpg" alt="" class="menu_image w3-animate-bottom">
+            </div>     
+             <div id="pasta" class="menu">
+                <img src="image/menu_pasta.jpg" alt="" class="menu_image w3-animate-bottom">
+            </div> 
+            <div id="pizza" class="menu">
+                <img src="image/menu_pizza.jpg" alt="" class="menu_image w3-animate-bottom">
+            </div> 
+        </div>
+    </section>
+
+    <!-------------Trending-------->
+   <section id="trending">
+   	 <div class="content-box-md">
+   	 	<div class="trending-heading-01">
+   	 		<h1><strong>Trending</strong></h1>
+   	 		<h2>Our Cafe's famous Food</h2>
+   	 	</div>
+   	 	<div class="container">
+   	 		<div class="row">
+   	 		   <div class="col-md-12" id="team-right">
+   	 		   	  <div id="trending-items" class="owl-carousel">
+   	 		   	  	<!------Item-1----------------->
+   	 		   	  	<div class="item">
+   	 		   	  		<img src="trending-item/macchiato.jpg" alt="" class="image-responsive">
+   	 		   	  		 <div class="item-info">
+			                    <h2>Mocha</h2>
+			                    <h3>Price:4600mmk</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div>
+   	 		   	  	</div>
+   	 		   	  	    
+   	 		   	  	    
+			        <!-------------Item-2--------------->
+			        <div class="item">
+   	 		   	  		<img src="trending-item/Carbonara.jfif" alt="" class="image-responsive">
+   	 		   	  		<div class="item-info">
+			                    <h2>Carbonara</h2>
+			                    <h3>Price:9000mmk</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div>
+   	 		   	  	</div>
+   	 		   	  	    
+   	 		   	  	  		
+			         <!-------------Item-3------------>
+			        <div class="item">
+   	 		   	  		<img src="trending-item/spiced-irish-coffee.jpg" alt="" class="image-responsive">
+   	 		   	  		 <div class="item-info">
+			                    <h2>Irishcoffee</h2>
+			                    <h3>Price:4500mmk</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div>
+   	 		   	  	</div>
+   	 		   	  	    
+   	 		   	  	    
+			         <!------------Item-4-------------------->
+			         <div class="item">
+   	 		   	  		<img src="trending-item/pan pizza.jfif" alt="" class="image-responsive">
+   	 		   	  		<div class="item-info">
+			                    <h2>PanPizza</h2>
+			                    <h3>Price:5800mmk</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div>
+   	 		   	  	</div>
+   	 		   	  	    
+   	 		   	  	     
+			         <!---------------Item-6--------------->
+			        <div class="item">
+   	 		   	  		<img src="trending-item/Italian Soda.jfif" alt="" class="image-responsive">
+   	 		   	  		<div class="item-info">
+			                    <h2>Soda</h2>
+			                    <h3>Price:2700mmk</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div> 
+   	 		   	  	</div>
+   	 		   	  	    
+   	 		   	  	     
+			         <!---------------Item-7------------->
+			        <div class="item">
+   	 		   	  		<img src="trending-item/Coffee layer cake.jpg" alt="" class="image-responsive">
+   	 		   	  		<div class="item-info">
+			                    <h2>Coffeecake</h2>
+			                    <h3>Price:3600mmk</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div> 
+   	 		   	  	</div>
+   	 		   	  	   
+   	 		   	  	     
+			        <!----------Item-8-------------->
+			        <div class="item">
+   	 		   	  		<img src="trending-item/frappe.png" alt="" class="image-responsive">
+   	 		   	  		<div class="item-info">
+			                    <h2>Frappe</h2>
+			                    <h3>Price:4000mmk</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div> 
+   	 		   	  	</div>
+   	 		   	  	  
+   	 		   	  	     
+			         <!-----------Item-9----------------->
+			         <div class="item">
+   	 		   	  		<img src="trending-item/Amatriciana.jfif" alt="" class="image-responsive">
+
+   	 		   	  	     <div class="item-info">
+			                    <h2>Amatrician</h2>
+			                    <h3>Price:7000mmk</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div> 
+   	 		   	  	</div>
+   	 		   	  	    
+			         <!---------------Item-10------------>
+			        <div class="item">
+   	 		   	  		<img src="trending-item/vanilla-cake.jpg" alt="" class="image-responsive">
+   	 		   	  		 <div class="item-info">
+			                    <h2>VanillaCake</h2>
+			                    <h3>Price:4600mmk</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div> 
+   	 		   	  	</div>
+   	 		   	  	    
+   	 		   	  	    
+			         <!--------------Item-11------------------>
+			         <div class="item">
+   	 		   	  		<img src="trending-item/lemon.jfif" alt="" class="image-responsive">
+   	 		   	  		 <div class="item-info">
+			                    <h2>Lemon</h2>
+			                    <h3>Price:4600mmk</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div>
+   	 		   	  	</div>
+   	 		   	  	    
+   	 		   	  	    
+			        <!-----------------Item-12----------------->
+			        <div class="item">
+   	 		   	  		<img src="trending-item/vegetable pizza.png" alt="" class="image-responsive" >
+   	 		   	  		<div class="item-info">
+			                    <h2>VegePizza</h2>
+			                    <h3>Price:4600kyats</h3>
+			                    <button class="btn btn-info"><a href="#">Detail</a></button>
+			             </div>
+   	 		   	  	</div>
+   	 		   	  	    
+   	 		   	 </div>
+   	 		   </div>
+   	 		</div>
+   	 	</div>
+
+   	 </div>
+   </section>
+   <!----------------------footer---------------->
+  
+	
+		<section id="footer">
+        <div class="bg_overlay_second">
+            <div class="footer_container">
+                <div class="Latest_posts">
+                    <h2>Latest Posts</h2>
+                    <div class="latest_posts_info">
+                        
+                    <h4>Midnight Mocha Cafe in Myanmar</h4>
+                    <em><p>September 1, 2020</p></em>
+                    <hr>
+                    </div>
+                    <div class="latest_posts_info">
+                        
+                        <h4>E xplore Midnight Mocha cafe with our team</h4>
+                       <em> <p>February 22, 2022</p></em>
+                        <hr>
+                        </div>
+                        <div class="latest_posts_info">
+                        
+                            <h4>New strawberry chocolate series</h4>
+                            <em><p>February 13, 2022</p></em>
+                            <hr>
+                        </div>
+                        <div class="latest_posts_info">
+                        
+                            <h4>New limited time christmas beverages</h4>
+                            <em><p>November 13, 2021</p></em>
+                            <hr>
+                        </div>
+        
+                </div>
+                <div class="contact_us">
+                    <h2>Contact us</h2>
+                    <div class="contact_us_info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>midnightmocha@gmail.com</span>
+                    </div>
+                   <div class="contact_us_info">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+95 999 9999 999 </span>
+                   </div>
+                   <hr>
+                </div>
+                <div class="our_outlets">
+                    <h2>Our outlets</h2>
+                    <p>To Be Updated</p>
+                </div>
+                <div class="other_place">
+                    <h2>We are also on</h2>
+                    <div class="other_place_info">
+                        <img src="image/foodpanda.png" alt="">
+                        <p>Foodpanda</p>
+                    </div>
+                    <div class="other_place_info">
+                        <img src="image/grab.jpg" alt="">
+                        <p>Grab Food</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyRight">
+            <p class="copyRight_p">Website by <span>TTU (Thanlyin Technological University)</span></p>
+            <div class="copyRight_social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <p class="copyRight_p">&copy Midnight Mocha Myanmar | <span>Our privay Policy</span></p>
+        </div>
+    </section>
+	
+   <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+    <script type="text/javascript" src="js/owlcarousel/owl.carousel.min.js"></script>
+</body>
+</html>

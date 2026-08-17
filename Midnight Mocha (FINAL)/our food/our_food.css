@@ -1,0 +1,255 @@
+/* dark brown #862B0D
+begie #FFF9C9
+gold #FFC95F
+grey #B5C99A*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap');
+h1,h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar {
+    position:absolute;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFF9C9;
+}
+
+.logo {
+    position:relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+.nav-bar ul {
+    position: relative;
+    display: flex;
+
+}
+.nav-bar ul li {
+    list-style-type: none;
+    
+}
+
+.nav-bar ul li a {
+    display: inline-block;
+    color: #862B0D;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.nav-bar ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #FFC95F;
+    transition: 0.3s;
+
+}
+
+.nav-bar ul li a:hover::after {
+    width: 100%;
+}
+#myVideo {
+  position:relative;
+
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.vd-content {
+  position:absolute;
+  left:0;
+
+  top:400px;
+  background: rgba(0, 0, 0, 0.5);
+  color:#FFC95F;
+  width: 100%;
+  padding: 50px;
+  line-height:30px;
+  
+}
+.vd-content h1{
+    font-size:40px;
+    font-family:cursive;
+    padding-bottom:20px;
+}
+.vd-content p{
+    font-size:25px;
+    font-family:cursive;
+    word-spacing:10px;
+    font-style: oblique;
+}
+.cream-bg{
+    background-color:#EAC696;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+.card{
+    margin:20px;
+    padding:20px;
+    background-color:#8D7B68;
+    box-shadow:8px 10px #E0D8B0;
+}
+.card-img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-bottom-right-radius:0px;
+}
+.card-title{
+    margin-bottom:10px;
+}
+.card-text {
+    line-height:40px;
+    word-spacing:5px;
+}
+.group_photo img{
+    width:100%;
+    height:400px;
+    position:absolute;
+}
+.photo-cover{
+    position:absolute;
+    left:0;
+    height:400px;
+    width:100%;
+    background: rgb(245, 245, 220,0.2);
+}
+.photo-cover h1{
+    text-align:center;
+    margin:100px;
+    font-size:50px;
+    color:#F8EDE3;
+}
+.photo-cover p{
+    text-align:center;
+    margin:100px;
+    font-size:30px;
+    color:#FFEDDB;
+}
+#footer {   
+    margin-top:400px;     
+    background-image:url(image/cafe_interior.jpeg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;       
+}
+
+#footer .bg_overlay_second {
+width: 100%;
+height: 500px;
+background-color:rgba(0,0,0,0.8);
+}
+
+#footer .footer_container {
+width: 100%;
+height: 500px;
+padding: 30px 50px;
+display: flex;
+justify-content: space-around;
+}
+
+#footer h2 {
+color: #fff;
+font-size: 25px;
+margin-bottom: 30px;
+text-transform: uppercase;
+
+}
+
+#footer h4 {
+color: #fff;
+
+}
+
+
+
+#footer .latest_posts_info hr,#footer .contact_us hr {
+margin: 20px 0;
+height: 1px;
+border: none;
+background-color: #FFC95F;
+}
+
+#footer .latest_posts_info p {
+color: #FFC95F;
+font-size: 18px;
+font-family: 'PT Serif', serif;;
+}
+#footer .contact_us .contact_us_info {
+display: flex;
+}
+
+#footer .contact_us .contact_us_info span {
+color: #FFC95F;
+}
+#footer .contact_us .contact_us_info i{
+color: #fff;
+margin-right: 4px;
+}
+
+#footer .other_place .other_place_info img {
+width: 50px;
+height: 50px;
+}
+
+#footer .our_outlets p{
+color: #f0f0f0;
+}
+
+#footer .other_place .other_place_info {
+display: flex;
+margin-bottom: 10px;
+}
+
+#footer .other_place .other_place_info p {
+padding: 10px;
+color: #f0f0f0;
+}
+
+#footer .copyRight {
+display: flex;
+justify-content: space-around;
+background-color: #000;
+padding: 40px 0;
+}
+
+#footer .copyRight .copyRight_p {
+font-size: 14px;
+color: #f0f0f0;
+
+}
+
+#footer .copyRight .copyRight_p span {
+color: #FFC95F;
+}
+.copyRight .copyRight_social i{
+color: #f0f0f0;
+padding: 0 10px;
+font-size: 20px;
+}

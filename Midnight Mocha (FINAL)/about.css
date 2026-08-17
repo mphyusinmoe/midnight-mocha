@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=PT+Sans+Narrow:wght@400;700&family=Prompt:wght@200;300;400;500&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=PT+Sans+Narrow:wght@400;700&family=PT+Serif:wght@400;700&family=Prompt:wght@200;300;400;500&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+/* dark brown #862B0D
+begie #FFF9C9
+gold #FFC95F
+grey #B5C99A*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    background: #FFF9C9
+    
+}
+
+header .logo {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style-type: none;
+
+}
+
+header ul li a {
+    display: inline-block;
+    color: #862B0D;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    position: relative;
+}
+
+header ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #FFC95F;
+    transition: 0.3s;
+
+}
+
+header ul li a:hover::after {
+    width: 100%;
+}
+
+#about_us {
+    background-color: #FFF9C9 ;
+}
+
+#about_us .about_photo {
+    background-image:url(image/cafe.jpeg);
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    position: relative;
+}
+
+/* .statement {
+    width: 100%;
+    background-image:url(image/cafe.jpeg);
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	background-repeat: no-repeat;
+    position: relative;
+} */
+
+#about_us .statement .about_title{
+    position: absolute;
+    
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#about_us .statement .about_title h1 {
+    color: #f0f0f0;
+    font-size: 50px;
+}
+
+#about_us .statement .about_title hr {
+    width: 120px;
+    margin: 0 auto;
+}
+
+
+#about_us .bg_overlay_first {    
+    
+    width: 100%;
+    height: 500px;
+    background-color:rgba(0,0,0,0.5);
+}
+
+/* ---------about first paragraph--------- */
+
+#about_us .about_fir_para {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#about_us .about_fir_para_img {
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+}
+
+#about_us .about_fir_para_img img {
+    width: 300px;
+    height: 300px;
+}
+
+#about_us .about_fir_para_text h3 {
+    font-size: 50px;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;   
+}
+#about_us .about_fir_para_text  {
+    text-align: justify;
+    width: 65%;
+}
+
+#about_us .about_fir_para_text .about_fir_para_p {
+    width: 750px;
+}
+#about_us .about_fir_para_text p {
+    margin-top: 20px;
+}
+
+#about_us .about_fir_para_text p:last-child {
+ font-family: 'Courgette', cursive;;
+ font-size: 25px;
+ margin-top: 30px;
+ margin-left: 30px;
+ position: relative;
+}
+
+#about_us .about_fir_para_text p:last-child::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #FFC95F;
+    left: -50px;
+    top: 50%;
+    rotate: 90deg;
+    
+}
+
+/* ---------about first paragraph--------- */
+
+#about_us .about_sec_para {
+    margin-top: 60px;
+    padding: 0 8% 30px 8%;
+}
+
+#about_us .about_sec_para hr{
+    height: 2px;
+    background-color: #FFC95F;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#about_us .about_sec_para h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+
+#about_us .about_sec_para p {
+    padding: 5px 0;
+}
+
+#about_us .about_sec_para h4 {
+    padding: 20px 0 0 0;
+}
+
+
+/* --------- footer--------- */
+
+#footer {        
+        background-image:url(image/cafe_interior.jpeg);
+        /* background-attachment:fixed; */
+        background-position:center;
+        background-size:cover;
+        background-repeat: no-repeat;       
+}
+
+#footer .bg_overlay_second {
+    width: 100%;
+    height: 500px;
+    background-color:rgba(0,0,0,0.8);
+}
+
+#footer .footer_container {
+    width: 100%;
+    height: 500px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+#footer h4 {
+    color: #fff;
+
+}
+
+
+
+#footer .latest_posts_info hr,#footer .contact_us hr {
+    margin: 20px 0;
+    height: 1px;
+    border: none;
+    background-color: #FFC95F;
+}
+
+#footer .latest_posts_info p {
+    color: #FFC95F;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;;
+}
+#footer .contact_us .contact_us_info {
+    display: flex;
+}
+
+#footer .contact_us .contact_us_info span {
+    color: #FFC95F;
+}
+#footer .contact_us .contact_us_info i{
+    color: #fff;
+   margin-right: 4px;
+}
+
+#footer .other_place .other_place_info img {
+    width: 50px;
+    height: 50px;
+}
+
+#footer .our_outlets p{
+ color: #f0f0f0;
+}
+
+#footer .other_place .other_place_info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#footer .other_place .other_place_info p {
+    padding: 10px;
+    color: #f0f0f0;
+}
+
+#footer .copyRight {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    padding: 40px 0;
+}
+
+#footer .copyRight .copyRight_p {
+    font-size: 14px;
+    color: #f0f0f0;
+    
+}
+
+#footer .copyRight .copyRight_p span {
+    color: #FFC95F;
+}
+.copyRight .copyRight_social i{
+    color: #f0f0f0;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+
